@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.col-12{
+  padding: 0px;
+}
+.productBrand{
+  font-size:42px;
+}
+.productTitle{
+  color: grey;
+}
+.status , .hoursLeft{
+  color: darkblue;
+}
+.productPrice{
+  font-size: 32px;
+}
+.guarenteeIcon{
+  height: 15px;
+}
+.profileImage{
+  height: 25px;
+}
+.currentPrice{
+  color:red;
+}
+.beforePrice{
+  color:grey;
+  font-size: 12px; 
+}
+.productCard{
+  width:20%;
+}
+.cheers{
+  padding: 25px;
+  margin: 40px 0px;
+}
+.vendorImage{
+  height: 50px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -89,7 +89,7 @@ export default class CheersModal extends React.Component {
         </ModalBody>
         <ModalFooter className="justify-content-between">
           <span>HK$ 3900</span>
-          <Button color="secondary" onClick={this.toggle}>Join</Button>
+          <Button color="success" onClick={this.toggle}>Add to Cart</Button>
         </ModalFooter>
       </Modal>
       </div>

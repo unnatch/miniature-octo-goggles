@@ -89,7 +89,7 @@ export default class GroupCheersModal extends React.Component {
         </ModalBody>
         <ModalFooter className="justify-content-between">
           <span>HK$ 3700<del className="ml-2">HK$ 3900</del></span>
-          <Button color="secondary" onClick={this.toggle}>Join</Button>
+          <Button color="success" onClick={this.toggle}>Start Group</Button>
         </ModalFooter>
       </Modal>
       </div>
